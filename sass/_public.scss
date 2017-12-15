@@ -3,6 +3,26 @@
     padding:0;
     
 }
+.wrapper{
+    margin:0 auto;
+    width:1210px;
+}
+img{
+    border:none;
+}
+h2{
+    font-weight: normal;
+}
+h3{
+    font-weight:normal;
+}
+h4{
+    font-weight:normal;
+}
+body{
+    font-size: 12px;
+    font-family: Helvetica,Arial,sans-serif;
+}
 li{
     list-style: none;
 }
@@ -12,4 +32,7 @@ a{
 em{
     font-style: normal;
   
+}
+i{
+    font-style:normal;
 }

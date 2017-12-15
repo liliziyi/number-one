@@ -1,0 +1,180 @@
+@charset 'utf-8';
+@import 'public';
+
+.cart-wrapper{
+    width: 990px;
+    margin: 0 auto;
+    .cart-head{
+        margin: 16px 0;
+        .logo{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        ul{
+            float:right;
+            background: url(../img/progress-bar.jpg) no-repeat 0 0;
+            padding-top: 23px;
+            margin-right: 20px;
+            li{
+                float: left;
+                color: #787878;
+                margin: 10px 20px;
+            }
+            .completed-step{
+                color: #7abd54;
+            }
+        }
+    }
+    .cart-inner{
+        border: 1px solid #ddd;
+        
+        
+    }
+    .cart-empty{
+        //height:98px;
+        background: #f3f3f3;
+        .message{
+            display:none;
+            height: 98px;
+            padding-left: 341px;
+            background: #f3f3f3 url(../img/cart-empty-bg.png) no-repeat 250px 22px;
+            ul{
+                padding-top: 23px;
+            }
+            li{
+                line-height: 26px;
+            }
+            a{
+                color: #0088cc;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        .cart-list{
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #dcdcdc;
+            .top{
+                color: #585858;
+                margin: 10px 2px;
+                .floatleft{
+                    font-size: 16px;
+                    font-weight: bolder;
+                    float:left;
+                }
+                .floatright{
+                    color: #585858;
+                    float:right;
+                    em{
+                        color:red;
+                    }
+                    a{
+                        display: inline-block;
+                        width: 80px;
+                        height: 24px;
+                        margin: 0 10px;
+                        color: #fff;
+                        line-height: 24px;
+                        text-align: center;
+                        font-weight: bolder;
+                        background: url(../img/icon-cart.png) no-repeat 0 0;
+                    }
+                }
+            }
+        }
+        .jiesuan{
+            text-align: right;
+            color: #585858;
+            font-size: 16px;
+            border-top: 1px solid #dcdcdc;
+            b{
+                font-size: 16px;
+            }
+            span{
+                em{color:red;}
+            }
+            a{
+                display: inline-block;
+                font-family: Microsoft Yahei;
+                color: #fff;
+                background-color: #cc0033;
+                text-align: center;
+                font-size: 20px;
+                padding: 10px 35px;
+                vertical-align: middle;
+            }
+        }
+        .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        .goodsinfo{
+            background:#fffdee;
+            height:auto;
+            text-align: center;
+            
+            div{
+                height:100px;
+                display:inline-block;
+                float:left;
+                line-height: 100px;
+            }
+            .xuan{
+                width:90px;
+                height:100px;
+               // vertical-align: middle;
+                text-align: center;
+                
+            }
+            .p-img{
+                width:180px;
+                img{
+                    margin-top:10px;
+                    width:80%;
+                    height:80%;
+                }
+            }
+            .p-name{
+                width:265px;
+                line-height: 36px;
+                a{
+                    color:#2E8AE5;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+            .p-price{
+                width:172px;
+                color:#585858;
+            }
+            .add{
+                width:148px;
+                span{
+                    border: 1px solid #ccc;
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    text-align: center;
+                    line-height: 15px;
+                    font-size: 16px;
+                    cursor: pointer; 
+                    background:#fff;
+                }
+                input{
+                    height: 20px;
+                    width: 32px;
+                    text-align: center;
+                }
+            }
+            .p-btn{
+                width:123px;
+            }
+        }
+    }
+}

@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1210px;
+}
+
+img {
+  border: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+body {
+  font-size: 12px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+i {
+  font-style: normal;
+}
+
+.logo {
+  margin: 30px;
+}
+.logo img {
+  width: 270px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.login-form {
+  float: right;
+  width: 313px;
+  border: 1px solid #d9d9d9;
+  border-top: 2px solid #f25546;
+}
+.login-form form {
+  width: 256px;
+  margin: 0 auto;
+}
+.login-form form .l-nav {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  overflow: hidden;
+}
+.login-form form .l-nav a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 44px;
+  line-height: 44px;
+  color: #999;
+  border-bottom: 1px solid #d9d9d9;
+}
+.login-form form .l-nav .zh-nav {
+  border-bottom-color: red;
+}
+.login-form form .wx-nav i {
+  background: url(../img/wx.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 22px;
+}
+.login-form form ul {
+  text-align: center;
+  margin: 28px 0 15px;
+}
+.login-form form .wx-hide {
+  display: none;
+  text-align: center;
+}
+.login-form form .wx-hide div {
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+.login-form form .wx-hide div img {
+  position: absolute;
+  left: 30px;
+  height: 180px;
+  width: 180px;
+}
+.login-form form .wx-hide p span {
+  display: inline-block;
+  margin-top: 16px;
+  padding-right: 18px;
+}
+.login-form form .a-login .error {
+  display: none;
+  color: #999;
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 10px;
+  border: 1px solid #f25546;
+  background-color: #fbf3f5;
+  margin: 20px 0;
+}
+.login-form form .a-login .input-group {
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-top: 20px;
+  position: relative;
+}
+.login-form form .a-login .input-group label {
+  display: inline-block;
+  width: 72px;
+  height: 18px;
+  line-height: 18px;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #d9d9d9;
+}
+.login-form form .a-login .input-group input {
+  padding: 6px 0 6px 20px;
+  width: 150px;
+  border: none;
+  color: #333;
+}
+.login-form form .a-login .l-r {
+  overflow: hidden;
+  height: 52px;
+  line-height: 52px;
+}
+.login-form form .a-login .l-r p {
+  float: left;
+}
+.login-form form .a-login .l-r p label {
+  color: #666;
+  margin-left: 4px;
+}
+.login-form form .a-login .l-r a {
+  color: #2e8ae5;
+  float: right;
+  margin-top: 18px;
+  height: 16px;
+  line-height: 16px;
+}
+.login-form form .a-login .login-btn {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #f25546;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Microsoft Yahei";
+  font-size: 16px;
+}
+.login-form form .a-login .l-r2 {
+  overflow: hidden;
+  height: 52px;
+  line-height: 52px;
+}
+.login-form form .a-login .l-r2 p {
+  float: left;
+}
+.login-form form .a-login .l-r2 p span {
+  color: #666;
+}
+.login-form form .a-login .l-r2 p a {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: 20px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.login-form form .a-login .l-r2 p .sina {
+  background: url(../img/wb.png) no-repeat;
+}
+.login-form form .a-login .l-r2 p .qq {
+  background: url(../img/qq.png) no-repeat;
+}
+.login-form form .a-login .l-r2 .free-register {
+  float: right;
+  margin-top: 18px;
+  height: 16px;
+  line-height: 16px;
+  color: #f25546;
+}
+
+.footer {
+  width: 1210px;
+  margin: 15px auto;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+.footer .Copyright {
+  color: #787878;
+  line-height: 30px;
+  padding-bottom: 6px;
+}
+.footer .Copyright-til a {
+  color: #333;
+}
+.footer .Copyright-til .a2 {
+  color: #6495ED;
+  text-decoration: underline;
+}
+.footer .Copyright-til a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=login.css.map */

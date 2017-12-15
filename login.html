@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>登录一号家居</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="js/require.js" data-main="js/main" type="text/javascript" async="ture" defer></script>
+
+	</head>
+	<body>
+		<!--
+        	作者：李紫伊
+        	时间：2017-12-08
+        	描述：登录页面
+        -->
+		<div class="logo">
+			<a href="http://mall.yihaojiaju.com"><img src="img/newlogo-new.png"></a>
+		</div>
+		<div class="container">
+        <!--<div class="ad-box" id="longin_001">
+        </div>-->
+        <div class="login-form">
+            <form action="php/register.login.php" method="post">
+                <div class="l-nav">
+                    <a href="javascript:;" class="wx-nav">
+                        <i></i>
+                        <span>微信登录</span>
+                    </a>
+                    <a href="javascript:;" class="zh-nav">
+                        <span>账号登录</span>
+                    </a>
+                </div>
+                <ul class="login-box">
+                    <li class="wx-hide">
+                        <div>
+                            <img id="wximg" src="img/Head-ewm.jpg" />
+                           
+                            <img src="img/yihaojia.gif" class="scan-qrcode" />
+                        </div>
+                         <p style="cursor:pointer;">
+                            
+                            <span>微信扫码 快速登录</span>
+                        </p>
+                    </li>
+                    <li class="a-login">
+                        <div class="error">
+                        </div>
+                        <div class="input-group">
+                            <label for="uAccount">账号</label>
+                            <input type="text" name="username" class="username" />
+                        </div>
+                        <div class="input-group">
+                            <label for="uPass">密码</label>
+                            <input type="password" name="password" class="psw"/>
+                        </div>
+                        
+                        <div class="l-r">
+                            <p>
+                                <input type="checkbox" id="autoLogin">
+                                <label for="autoLogin">自动登录</label>
+                            </p>
+                            <a href="/forgotpwd/findpwd.html">忘记密码？</a>
+                        </div>
+                        <a class="login-btn">登录</a>
+                        <div class="l-r2">
+                            <p>
+                                <span>快捷登录：</span>
+                                <a href="sinalogin.html" class="sina"></a>
+                                <a href="qqlogin.html" class="qq"></a>
+                            </p>
+                            <a href="register.html" class="free-register">免费注册 <em>&gt;</em></a>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+										
+	<div class="footer">
+		<p class="Copyright">
+			Copyright © 2013-2022 一号家居网（www.yihaojiaju.com）一站式品质家装 省心更省钱.</p>
+		<p class="Copyright-til">
+			装房子 买家具家电 就上
+			<a href="http://www.yihaojiaju.com/" ">一号家居网</a> - Yes! <span class="font-bule "><a class="a2" " href="http://www.miitbeian.gov.cn/ "
+               >苏ICP备14018447号-1</a></span>
+		</p>
+	</div>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function addCookie(key,value,day){
+			var date=new Date();//创建日期对象
+			date.setDate(date.getDate()+day);//过期时间：获取当前的日期+天数，设置给date
+			document.cookie=key+'='+encodeURI(value)+';expires='+date;//添加cookie，设置过期时间
+		}
+		$('.login-btn').on('click',function(){
+					var $username=$('.username').val();
+					var $password=$('.password').val();
+					$.ajax({
+						type:'post',
+						url:'php/login.php',
+						data:{//将用户名和密码传输给后端
+							name:$username,
+							pass:$password
+						},
+						success:function(data){//请求成功，接收后端返回的值
+							if(!data){//用户名或者密码错误
+								$('.error').show().html('用户名或者密码错误');
+								$('.psw').val('');
+							}else{//成功
+								addCookie('UserName',$username,7);
+								location.href='index.html';
+							}
+						}
+					})
+				});
+	</script>	
+	</body>
+</html>

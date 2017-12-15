@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1210px;
+}
+
+img {
+  border: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+body {
+  font-size: 12px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+i {
+  font-style: normal;
+}
+
+.cart-wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+.cart-wrapper .cart-head {
+  margin: 16px 0;
+}
+.cart-wrapper .cart-head .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cart-wrapper .cart-head ul {
+  float: right;
+  background: url(../img/progress-bar.jpg) no-repeat 0 0;
+  padding-top: 23px;
+  margin-right: 20px;
+}
+.cart-wrapper .cart-head ul li {
+  float: left;
+  color: #787878;
+  margin: 10px 20px;
+}
+.cart-wrapper .cart-head ul .completed-step {
+  color: #7abd54;
+}
+.cart-wrapper .cart-inner {
+  border: 1px solid #ddd;
+}
+.cart-wrapper .cart-empty {
+  background: #f3f3f3;
+}
+.cart-wrapper .cart-empty .message {
+  display: none;
+  height: 98px;
+  padding-left: 341px;
+  background: #f3f3f3 url(../img/cart-empty-bg.png) no-repeat 250px 22px;
+}
+.cart-wrapper .cart-empty .message ul {
+  padding-top: 23px;
+}
+.cart-wrapper .cart-empty .message li {
+  line-height: 26px;
+}
+.cart-wrapper .cart-empty .message a {
+  color: #0088cc;
+}
+.cart-wrapper .cart-empty .message a:hover {
+  text-decoration: underline;
+}
+.cart-wrapper .cart-empty .cart-list {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+.cart-wrapper .cart-empty .cart-list .top {
+  color: #585858;
+  margin: 10px 2px;
+}
+.cart-wrapper .cart-empty .cart-list .top .floatleft {
+  font-size: 16px;
+  font-weight: bolder;
+  float: left;
+}
+.cart-wrapper .cart-empty .cart-list .top .floatright {
+  color: #585858;
+  float: right;
+}
+.cart-wrapper .cart-empty .cart-list .top .floatright em {
+  color: red;
+}
+.cart-wrapper .cart-empty .cart-list .top .floatright a {
+  display: inline-block;
+  width: 80px;
+  height: 24px;
+  margin: 0 10px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bolder;
+  background: url(../img/icon-cart.png) no-repeat 0 0;
+}
+.cart-wrapper .cart-empty .jiesuan {
+  text-align: right;
+  color: #585858;
+  font-size: 16px;
+  border-top: 1px solid #dcdcdc;
+}
+.cart-wrapper .cart-empty .jiesuan b {
+  font-size: 16px;
+}
+.cart-wrapper .cart-empty .jiesuan span em {
+  color: red;
+}
+.cart-wrapper .cart-empty .jiesuan a {
+  display: inline-block;
+  font-family: Microsoft Yahei;
+  color: #fff;
+  background-color: #cc0033;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 35px;
+  vertical-align: middle;
+}
+.cart-wrapper .cart-empty .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.cart-wrapper .cart-empty .goodsinfo {
+  background: #fffdee;
+  height: auto;
+  text-align: center;
+}
+.cart-wrapper .cart-empty .goodsinfo div {
+  height: 100px;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+.cart-wrapper .cart-empty .goodsinfo .xuan {
+  width: 90px;
+  height: 100px;
+  text-align: center;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-img {
+  width: 180px;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-img img {
+  margin-top: 10px;
+  width: 80%;
+  height: 80%;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-name {
+  width: 265px;
+  line-height: 36px;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-name a {
+  color: #2E8AE5;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-name a:hover {
+  text-decoration: underline;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-price {
+  width: 172px;
+  color: #585858;
+}
+.cart-wrapper .cart-empty .goodsinfo .add {
+  width: 148px;
+}
+.cart-wrapper .cart-empty .goodsinfo .add span {
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #fff;
+}
+.cart-wrapper .cart-empty .goodsinfo .add input {
+  height: 20px;
+  width: 32px;
+  text-align: center;
+}
+.cart-wrapper .cart-empty .goodsinfo .p-btn {
+  width: 123px;
+}
+
+/*# sourceMappingURL=cart.css.map */

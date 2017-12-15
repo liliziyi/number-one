@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1210px;
+}
+
+img {
+  border: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+body {
+  font-size: 12px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+i {
+  font-style: normal;
+}
+
+.logo {
+  margin: 30px;
+}
+.logo img {
+  width: 270px;
+  margin-top: 10px;
+}
+
+.mid {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.register-form {
+  float: right;
+  width: 313px;
+  border: 1px solid #d9d9d9;
+  border-top: 2px solid #f25546;
+}
+.register-form form {
+  width: 256px;
+  margin: 0 auto;
+}
+
+.l-nav {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  overflow: hidden;
+}
+.l-nav p {
+  height: 44px;
+  line-height: 44px;
+  color: #333;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.register {
+  margin-top: 20px;
+}
+.register .error {
+  display: none;
+  color: #999;
+  font-size: 12px;
+  line-height: 24px;
+  width: 243px;
+  height: 24px;
+  padding-left: 10px;
+  border: 1px solid #f25546;
+  background-color: #fbf3f5;
+  margin-bottom: 12px;
+}
+.register .group {
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.register .group label {
+  display: inline-block;
+  width: 72px;
+  height: 18px;
+  line-height: 18px;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #d9d9d9;
+}
+.register .group input {
+  padding: 6px 0 6px 20px;
+  width: 150px;
+  border: none;
+  color: #333;
+}
+.register .group .btn {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  width: 80px;
+  text-align: center;
+  background-color: #ff9562;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.register .gat {
+  height: auto;
+}
+.register .gat .codeBox {
+  display: none;
+  height: 28px;
+  line-height: 28px;
+  margin: 6px 0;
+}
+.register .gat .codeBox a {
+  text-align: center;
+  width: 60px;
+}
+.register .gat .codeBox input {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+  width: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+.register .gat .codeBox .ensure-btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #ff9562;
+}
+.register .register-btn {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #f25546;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Microsoft Yahei";
+  font-size: 16px;
+}
+.register .l-r {
+  overflow: hidden;
+  height: 52px;
+  line-height: 52px;
+}
+.register .l-r p {
+  float: left;
+}
+.register .l-r p span {
+  color: #666;
+}
+.register .l-r p a {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: 20px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.register .l-r p .sina {
+  background: url(../img/wb.png) no-repeat;
+}
+.register .l-r p .qq {
+  background: url(../img/qq.png) no-repeat;
+}
+.register .l-r .go {
+  float: right;
+  margin-top: 18px;
+  height: 16px;
+  line-height: 16px;
+  color: #f25546;
+}
+
+.footer {
+  width: 1210px;
+  margin: 15px auto;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+.footer .Copyright {
+  color: #787878;
+  line-height: 30px;
+  padding-bottom: 6px;
+}
+.footer .Copyright-til a {
+  color: #333;
+}
+.footer .Copyright-til .a2 {
+  color: #6495ED;
+  text-decoration: underline;
+}
+.footer .Copyright-til a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=register.css.map */

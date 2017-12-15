@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>注册一号家居</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+	</head>
+
+	<body>
+		<!--
+    	作者：李紫伊
+    	时间：2017-12-08
+    	描述：注册页面
+    -->
+		<div class="logo">
+			<a href="http://mall.yihaojiaju.com"><img src="img/newlogo-new.png"></a>
+		</div>
+		<div class="mid">
+		<div class="register-form">
+			<form action="php/register.login.php" method="post">
+				<div class="l-nav">
+					<p>欢迎注册</p>
+				</div>
+				<div class="register">
+					<div class="error">
+						<!--错误时出现-->
+					</div>
+					<div class="group">
+						<label for="uPhone">手机</label>
+						<input type="text" name="phone" id="phone" placeholder="请输入手机号码"/>
+					</div>
+					<div class="group">
+						<label for="uPass">密码</label>
+						<input type="password" name="password" id="password" placeholder="密码长度6-18位"/>
+					</div>
+					<div class="group gat">
+						<label for="checkCode">验证码</label>
+						<input type="text" id="code" placeholder="请输入验证码">
+						<a href="javascript:;" class="btn">获取验证码</a>
+						<div class="codeBox">
+							<input type="text" maxlength="4" id="txtimgCode" />
+							<a href="javascript:;" class="change-code">换一张</a>
+							<a href="javascript:;" class="ensure-btn">确定</a>
+						</div>
+					</div>
+					<a class="register-btn">立即注册</a>
+					<div class="l-r">
+						<p>
+							<span>快捷登录：</span>
+							<a href="sinalogin.html" class="sina"></a>
+							<a href="qqlogin.html" class="qq"></a>
+						</p>
+						<a href="login.html" class="go">去登录 <em>&gt;</em></a>
+					</div>
+				</div>
+			</form>
+		</div>
+		</div>
+		<div class="footer">
+			<p class="Copyright">
+				Copyright © 2013-2022 一号家居网（www.yihaojiaju.com）一站式品质家装 省心更省钱.</p>
+			<p class="Copyright-til">
+				装房子 买家具家电 就上
+				<a href="http://www.yihaojiaju.com/" ">一号家居网</a> - Yes! <span class="font-bule "><a class="a2" " href="http://www.miitbeian.gov.cn/ "
+                   >苏ICP备14018447号-1</a></span>
+			</p>
+		</div>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		
+	
+	</body>
+
+</html>
